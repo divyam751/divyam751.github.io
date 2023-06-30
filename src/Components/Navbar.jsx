@@ -9,12 +9,6 @@ export default function Navbar({ handleClick, boolean }) {
     );
   };
 
-  // const topwindows = () => {
-  //   window.scrollTo({
-  //     top: 0,
-  //   });
-  // };
-
   return (
     <nav id='nav-menu' onClick={handleClick}>
       <div id='logo-nav'>

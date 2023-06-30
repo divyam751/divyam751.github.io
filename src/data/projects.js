@@ -34,5 +34,15 @@ export default function getProjects() {
       projectLinkHosted: "https://github.com/divyam751/Project_KFC",
       projectLinkGithub: "https://github.com/mithunsen04/Shop.com_Clone",
     },
+    {
+      id: 4,
+      projectTitle: "Portfolio",
+      image: "Portfolio.jpg",
+      projectInfo:
+        "My portfolio project showcases a culmination of my passion for design and development, weaving together elegant aesthetics with seamless functionality to create visually stunning and user-friendly experiences.",
+      techUsed: ["JavaScript", "HTML", "CSS", "React"],
+      projectLinkHosted: "https://github.com/divyam751/divyam751.github.io",
+      projectLinkGithub: "https://divyam751.github.io/",
+    },
   ];
 }
