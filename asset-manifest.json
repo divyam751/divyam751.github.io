@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.d9e695cf.css",
-    "main.js": "/static/js/main.7de3eb36.js",
+    "main.js": "/static/js/main.e636307b.js",
     "static/media/OverStock.png": "/static/media/OverStock.f9053464d524e12eb19f.png",
     "static/media/Melodix.png": "/static/media/Melodix.d51233e25169a850d64e.png",
     "static/media/KFC.png": "/static/media/KFC.27b9bd98bc8ad974a8d4.png",
+    "static/media/Portfolio.jpg": "/static/media/Portfolio.e6d85405a5bccc2eedde.jpg",
     "static/media/Divyam-Chauhan-Resume.pdf": "/static/media/Divyam-Chauhan-Resume.d9a447fabf5bd7dc1e2a.pdf",
     "static/media/personal.jpg": "/static/media/personal.8e54a4039c7ca93a1e89.jpg",
     "index.html": "/index.html",
     "main.d9e695cf.css.map": "/static/css/main.d9e695cf.css.map",
-    "main.7de3eb36.js.map": "/static/js/main.7de3eb36.js.map"
+    "main.e636307b.js.map": "/static/js/main.e636307b.js.map"
   },
   "entrypoints": [
     "static/css/main.d9e695cf.css",
-    "static/js/main.7de3eb36.js"
+    "static/js/main.e636307b.js"
   ]
 }
