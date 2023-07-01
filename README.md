@@ -22,7 +22,8 @@ The portfolio website is built using a combination of frontend and backend techn
 
 - **Tech Stack:** HTML, CSS, JavaScript, React.
 
-- **Deployment:** GitHub Pages.
+- **Deployment:** GitHub Pages.  [Portfolio](https://divyam751.github.io)
+
 
 ## Contributing
 
