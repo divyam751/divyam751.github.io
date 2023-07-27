@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d9e695cf.css",
-    "main.js": "/static/js/main.4a4df810.js",
+    "main.js": "/static/js/main.2a1e1fcd.js",
     "static/media/OverStock.png": "/static/media/OverStock.f9053464d524e12eb19f.png",
     "static/media/Melodix.png": "/static/media/Melodix.d51233e25169a850d64e.png",
     "static/media/KFC.png": "/static/media/KFC.27b9bd98bc8ad974a8d4.png",
@@ -10,10 +10,10 @@
     "static/media/personal.jpg": "/static/media/personal.8e54a4039c7ca93a1e89.jpg",
     "index.html": "/index.html",
     "main.d9e695cf.css.map": "/static/css/main.d9e695cf.css.map",
-    "main.4a4df810.js.map": "/static/js/main.4a4df810.js.map"
+    "main.2a1e1fcd.js.map": "/static/js/main.2a1e1fcd.js.map"
   },
   "entrypoints": [
     "static/css/main.d9e695cf.css",
-    "static/js/main.4a4df810.js"
+    "static/js/main.2a1e1fcd.js"
   ]
 }
