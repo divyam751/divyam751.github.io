@@ -64,7 +64,7 @@ export default function Navbar({ handleClick, boolean }) {
         onClick={handleDownload}
         rel='noreferrer'
         download={"Divyam-Chauhan-Resume"}
-        id='resume-button-1'
+        id='resume-button-12'
         className='contact-button nav-link resume resume-button second-btn'
       >
         Resume
