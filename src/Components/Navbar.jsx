@@ -1,14 +1,8 @@
 import resume from "../resume/Divyam-Chauhan-Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-export default function Navbar({ handleClick, boolean }) {
-  const handleDownload = () => {
-    window.open(
-      "https://drive.google.com/file/d/1AqZMjnPacKIcH8d_YNiV7STc2LpO08Uw/view?usp=sharing",
-      "_blank"
-    );
-  };
 
+export default function Navbar({ handleClick, boolean }) {
   return (
     <nav id='nav-menu' onClick={handleClick}>
       <div id='logo-nav'>
@@ -21,7 +15,6 @@ export default function Navbar({ handleClick, boolean }) {
           <a
             rel='noreferrer'
             href={resume}
-            onClick={handleDownload}
             download={"Divyam-Chauhan-Resume"}
             className='contact-button resume-button first-btn'
           >
@@ -59,16 +52,6 @@ export default function Navbar({ handleClick, boolean }) {
           </a>
         </li>
       </ul>
-      <a
-        href={resume}
-        onClick={handleDownload}
-        rel='noreferrer'
-        download={"Divyam-Chauhan-Resume"}
-        id='resume-button-1'
-        className='contact-button nav-link resume resume-button second-btn'
-      >
-        Resume
-      </a>
     </nav>
   );
 }
