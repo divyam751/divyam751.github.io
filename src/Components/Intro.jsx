@@ -73,7 +73,7 @@ export default function Intro({ handleClick, boolean }) {
             onClick={handleDownload}
             rel='noreferrer'
             download={"Divyam-Chauhan-Resume"}
-            id='resume-button-1'
+            id='resume-button-2'
             className='contact-button nav-link resume resume-button second-btn'
           >
             Resume
