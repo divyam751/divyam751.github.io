@@ -1,6 +1,8 @@
 import resume from "../resume/Divyam-Chauhan-Resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import Logo from "./elements/Logo";
+import ResumeButton from "./elements/ResumeButton";
 export default function Navbar({ handleClick, boolean }) {
   const handleDownload = () => {
     window.open(
@@ -13,8 +15,9 @@ export default function Navbar({ handleClick, boolean }) {
     <nav id='nav-menu' onClick={handleClick}>
       <div id='logo-nav'>
         <h1 className='nav-link home'>
-          <a className='sauce name rubber' href='#home'>
-            Divyam
+          <a href='#home'>
+            {/* Divyam */}
+            <Logo />
           </a>
         </h1>
         <div className='ham-container'>
@@ -65,9 +68,10 @@ export default function Navbar({ handleClick, boolean }) {
         rel='noreferrer'
         download={"Divyam-Chauhan-Resume"}
         id='resume-button-1'
-        className='contact-button nav-link resume resume-button second-btn'
+        // className='contact-button nav-link resume resume-button second-btn'
       >
-        Resume
+        {/* Resume */}
+        <ResumeButton />
       </a>
     </nav>
   );

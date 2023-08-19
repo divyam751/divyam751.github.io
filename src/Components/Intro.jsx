@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../images/pictures/personal.jpg";
 import Typewriter from "typewriter-effect";
 import resume from "../resume/Divyam-Chauhan-Resume.pdf";
+import bg1 from "../images/pictures/wave-haikei.svg";
 
 export default function Intro({ handleClick, boolean }) {
   // ===========
@@ -15,7 +16,13 @@ export default function Intro({ handleClick, boolean }) {
   return (
     <div
       id='home'
-      style={{ paddingTop: "50px" }}
+      style={{
+        paddingTop: "10px",
+        backgroundImage: `url(${bg1})`,
+        backgroundPosition: "bottom", // Position the background at the bottom
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
       className='hero'
       onClick={() => {
         if (boolean === false) handleClick();
@@ -68,7 +75,7 @@ export default function Intro({ handleClick, boolean }) {
             Contact
           </a>
           {/* ================= */}
-          <a
+          {/* <a
             href={resume}
             onClick={handleDownload}
             rel='noreferrer'
@@ -77,7 +84,7 @@ export default function Intro({ handleClick, boolean }) {
             className='contact-button nav-link resume resume-button second-btn'
           >
             Resume
-          </a>
+          </a> */}
           {/* ============= */}
         </div>
       </div>

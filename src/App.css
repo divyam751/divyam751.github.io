@@ -1,6 +1,7 @@
 :root {
   --black: rgb(246, 242, 242);
-  --light-red: rgb(1, 19, 2);
+  /* --light-red: rgb(1, 19, 2); */
+  --light-red: white;
   /* --light-blue: rgb(241, 101, 8);
 
   --light-orange: rgb(195, 234, 22); */
@@ -52,7 +53,8 @@ body {
   position: relative;
   font-family: "Montserrat", sans-serif, Verdana, Geneva, Tahoma;
   /* background: #232322; */
-  background: #7e75c9;
+  /* background: #7e75c9; */
+  background: #002233;
   background-size: cover;
   font-size: 18px;
   color: var(--black);
@@ -789,5 +791,14 @@ ul.tech-used li {
     margin-bottom: 20px;
   }
 }
+
+/* styles.css */
+.svg-background {
+  background-image: url("data:image/svg+xml;charset=utf-8,SVG_CODE_HERE");
+  /* Replace SVG_CODE_HERE with the actual SVG code */
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust as needed */
+}
+
 
 /* footer */

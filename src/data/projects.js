@@ -31,8 +31,8 @@ export default function getProjects() {
       projectInfo:
         "Explore our virtual chicken paradise where you can browse our mouthwatering menu, customize your favorite meals, and conveniently place your orders for delivery or pickup. Get ready to satisfy your cravings and experience the finger-licking goodness of KFC, all from the comfort of your own home!",
       techUsed: ["JavaScript", "HTML", "CSS"],
-      projectLinkHosted: "https://github.com/divyam751/Project_KFC",
-      projectLinkGithub: "https://github.com/mithunsen04/Shop.com_Clone",
+      projectLinkHosted: "https://tubular-sopapillas-663bac.netlify.app/",
+      projectLinkGithub: "https://github.com/divyam751/Project_KFC",
     },
     {
       id: 4,
