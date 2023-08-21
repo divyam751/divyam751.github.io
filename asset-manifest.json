@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.c74024b4.css",
-    "main.js": "/static/js/main.dd9a7262.js",
+    "main.js": "/static/js/main.d5da6b02.js",
     "static/media/OverStock.png": "/static/media/OverStock.f9053464d524e12eb19f.png",
     "static/media/Melodix.png": "/static/media/Melodix.d51233e25169a850d64e.png",
     "static/media/KFC.png": "/static/media/KFC.27b9bd98bc8ad974a8d4.png",
     "static/media/Portfolio.jpg": "/static/media/Portfolio.e6d85405a5bccc2eedde.jpg",
     "static/media/Divyam-Chauhan-Resume.pdf": "/static/media/Divyam-Chauhan-Resume.d9a447fabf5bd7dc1e2a.pdf",
-    "static/media/personal.jpg": "/static/media/personal.8e54a4039c7ca93a1e89.jpg",
+    "static/media/personal.jpg": "/static/media/personal.5929698c9d4be50dfedd.jpg",
     "static/media/wave-haikei.svg": "/static/media/wave-haikei.e4694d785b8b1e41e4cf9c41837dbb6a.svg",
     "index.html": "/index.html",
     "main.c74024b4.css.map": "/static/css/main.c74024b4.css.map",
-    "main.dd9a7262.js.map": "/static/js/main.dd9a7262.js.map"
+    "main.d5da6b02.js.map": "/static/js/main.d5da6b02.js.map"
   },
   "entrypoints": [
     "static/css/main.c74024b4.css",
-    "static/js/main.dd9a7262.js"
+    "static/js/main.d5da6b02.js"
   ]
 }
