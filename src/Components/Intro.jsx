@@ -3,14 +3,6 @@ import img1 from "../images/pictures/personal.jpg";
 import Typewriter from "typewriter-effect";
 
 export default function Intro({ handleClick, boolean }) {
-  // ===========
-  const handleDownload = () => {
-    window.open(
-      "https://drive.google.com/file/d/1AqZMjnPacKIcH8d_YNiV7STc2LpO08Uw/view?usp=sharing",
-      "_blank",
-    );
-  };
-  // ==============
   return (
     <div
       id='home'
@@ -65,18 +57,6 @@ export default function Intro({ handleClick, boolean }) {
           <a className='contact-button' href='#contact'>
             Contact
           </a>
-          {/* ================= */}
-          {/* <a
-            href={resume}
-            onClick={handleDownload}
-            rel='noreferrer'
-            download={"Divyam-Chauhan-Resume"}
-            id='resume-button-2'
-            className='contact-button nav-link resume resume-button second-btn'
-          >
-            Resume
-          </a> */}
-          {/* ============= */}
         </div>
       </div>
     </div>

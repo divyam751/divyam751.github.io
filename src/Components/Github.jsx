@@ -56,7 +56,7 @@ export const Github = () => {
         <img
           id='github-streak-stats'
           align='center'
-          src='https://github-readme-streak-stats.herokuapp.com/?user=divyam751&theme=neon&border_radius=2.7&date_format=M%20j%5B%2C%20Y%5D'
+          src='https://github-readme-streak-stats-seven-alpha.vercel.app?user=divyam751&theme=neon&border_radius=2.7&date_format=M%20j%5B%2C%20Y%5D'
           alt='divyam751'
         />
       </div>
