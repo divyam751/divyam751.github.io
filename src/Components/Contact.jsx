@@ -1,4 +1,4 @@
-import React,{useEffect} from "react";
+import React, { useEffect } from "react";
 import AOS from "aos";
 
 export default function Contact() {
@@ -8,29 +8,27 @@ export default function Contact() {
   }, []);
 
   return (
-    <section data-aos="fade-up"  className="contact-continer sections" id="contact">
-      <h1 className="heading">
-        <span className="sauce">Contact Me </span>
+    <section
+      data-aos='fade-up'
+      className='contact-continer sections'
+      id='contact'
+    >
+      <h1 className='heading'>
+        <span className='sauce'> Contact Me </span>
       </h1>
-      <div data-aos="fade-up" className="flex-center">
-        <h1 className="title">Get In Touch</h1>
+      <div data-aos='fade-up' className='flex-center'>
+        <h1 className='title'>Get In Touch</h1>
         <p style={{ textAlign: "center", "": 700 }}>
-        Please email me at your convenience. 
+          Please email me at your convenience.
         </p>
-        <div className="button-container">
-          <a
-            className="contact-button"
-            href="mailto:mi.divyam@gmail.com"
-          >
+        <div className='button-container'>
+          <a className='contact-button' href='mailto:mi.divyam@gmail.com'>
             Send an email
           </a>
         </div>
-        <div id="contact-phone" className="button-container">
-          <a
-            className="contact-button"
-            href="tel:+919719635838"
-          >
-           Make contact
+        <div id='contact-phone' className='button-container'>
+          <a className='contact-button' href='tel:+919719635838'>
+            Make contact
           </a>
         </div>
       </div>

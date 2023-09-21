@@ -11,6 +11,7 @@
   border-radius: 18px;
   overflow: hidden;
   transition: all 0.2s;
+  cursor: pointer;
 }
 
 #res-btn span {

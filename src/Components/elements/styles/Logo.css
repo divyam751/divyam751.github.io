@@ -5,6 +5,7 @@
   background: transparent;
   padding: 0;
   border: none;
+  cursor: pointer;
 }
 
 /* button styling */
@@ -22,6 +23,7 @@
   color: transparent;
   -webkit-text-stroke: 1px var(--text-stroke-color);
 }
+
 /* this is the text, when you hover on button */
 .hover-text {
   position: absolute;
@@ -35,6 +37,7 @@
   transition: 0.5s;
   -webkit-text-stroke: 1px var(--animation-color);
 }
+
 /* hover */
 .button:hover .hover-text {
   width: 100%;

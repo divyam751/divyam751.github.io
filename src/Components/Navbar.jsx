@@ -6,8 +6,8 @@ import ResumeButton from "./elements/ResumeButton";
 export default function Navbar({ handleClick, boolean }) {
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1AqZMjnPacKIcH8d_YNiV7STc2LpO08Uw/view?usp=sharing",
-      "_blank"
+      "https://drive.google.com/file/d/1QLvELukHGjnVJKjvfmMmA5DoDHMVSEYY/view?usp=sharing",
+      "_blank",
     );
   };
 
@@ -16,20 +16,10 @@ export default function Navbar({ handleClick, boolean }) {
       <div id='logo-nav'>
         <h1 className='nav-link home'>
           <a href='#home'>
-            {/* Divyam */}
             <Logo />
           </a>
         </h1>
         <div className='ham-container'>
-          {/* <a
-            rel='noreferrer'
-            href={resume}
-            onClick={handleDownload}
-            download={"Divyam-Chauhan-Resume"}
-            className='contact-button resume-button first-btn'
-          >
-            Resume
-          </a> */}
           <span className='ham'>
             <FontAwesomeIcon icon={boolean ? faBars : faXmark} />
           </span>
@@ -61,18 +51,18 @@ export default function Navbar({ handleClick, boolean }) {
             Contact
           </a>
         </li>
+        <li className='nav-resume'>
+          <a
+            href={resume}
+            onClick={handleDownload}
+            rel='noreferrer'
+            download={"Divyam-Chauhan-Resume"}
+            id='resume-link-1'
+          >
+            <ResumeButton />
+          </a>
+        </li>
       </ul>
-      <a
-        href={resume}
-        onClick={handleDownload}
-        rel='noreferrer'
-        download={"Divyam-Chauhan-Resume"}
-        id='resume-button-1'
-        // className='contact-button nav-link resume resume-button second-btn'
-      >
-        {/* Resume */}
-        <ResumeButton />
-      </a>
     </nav>
   );
 }

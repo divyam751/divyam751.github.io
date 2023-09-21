@@ -5,11 +5,11 @@ import "./App.css";
 import Intro from "./Components/Intro";
 import About from "./Components/About";
 import Navbar from "./Components/Navbar";
-import Projects from "./Components/Project";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import { Skills } from "./Components/Skills";
 import { Github } from "./Components/Github";
+import Projects from "./Components/Projects";
 
 function App() {
   let [boolean, setBoolean] = useState(true);

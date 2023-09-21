@@ -1,19 +1,15 @@
 import React, { useEffect } from "react";
-import { DiMongodb, DiHtml5 } from "react-icons/di";
 import {
-  SiExpress,
-  SiCss3,
-  SiRedux,
-  SiTailwindcss,
-  SiJavascript,
-  SiReact,
-  SiPostman,
-  SiVite,
-  SiFirebase,
   SiChakraui,
+  SiExpress,
+  SiGithub,
+  SiJavascript,
+  SiMongodb,
+  SiNodedotjs,
+  SiRedux,
 } from "react-icons/si";
-import { FaNodeJs, FaGitSquare, FaJava } from "react-icons/fa";
-import { TbBrandVscode } from "react-icons/tb";
+import { TbBrandOauth } from "react-icons/tb";
+import { BiLogoNetlify } from "react-icons/bi";
 
 import AOS from "aos";
 
@@ -24,156 +20,197 @@ export const Skills = () => {
   }, []);
 
   return (
-    <section
-      data-aos='fade-up'
-      className='sections'
-      id='skills'
-      style={{ paddingTop: "200px", paddingBottom: "400px" }}
-    >
+    <section data-aos='fade-up' className='skills-section' id='skills'>
       <h1 data-aos='fade-up' className='heading'>
-        <span className='sauce'>Skills</span>
+        <span className='sauce'>
+          {" "}
+          <b>Skills</b>{" "}
+        </span>
       </h1>
-      <div></div>
       <p data-aos='fade-up'>
         Here are a few Technologies I’ve been working with recently:
       </p>
-      <ul data-aos='fade-up' className='skills-list'>
+
+      <div style={{ paddingBottom: 20 }}></div>
+      <ul
+        data-aos='fade-up'
+        className='skills-list'
+        style={{ color: "orange" }}
+      >
         <li className='skills-card'>
           <div className='skills-card-name'>
-            {" "}
-            <SiJavascript
+            <img
+              src='https://cdn-icons-png.flaticon.com/512/732/732212.png'
+              alt='HTML'
+              width={30}
+              height={30}
               className='skills-card-img'
-              color='rgb(255,68,159)'
-            />{" "}
+            />
+            HTML
+          </div>
+        </li>
+        <li className='skills-card'>
+          <div className='skills-card-name'>
+            <img
+              src='https://miro.medium.com/v2/resize:fit:3614/1*5z5g2wKCOUqWHPBbFjNbfA.png'
+              alt='CSS'
+              width={30}
+              height={30}
+              className='skills-card-img'
+            />
+            CSS
+          </div>
+        </li>
+        <li className='skills-card'>
+          <div className='skills-card-name'>
+            <SiJavascript size={30} class='skills-card-img' color='yellow' />{" "}
             JavaScript
           </div>
         </li>
         <li className='skills-card'>
           <div className='skills-card-name'>
-            {" "}
-            <SiReact className='skills-card-img' color='rgb(255,68,159)' />{" "}
-            ReactJs
-          </div>
-        </li>
-        <li className='skills-card'>
-          <div className='skills-card-name'>
-            <SiRedux className='skills-card-img' color='rgb(255,68,159)' />{" "}
-            Redux
-          </div>
-        </li>
-        <li className='skills-card'>
-          <div className='skills-card-name'>
-            {" "}
-            <SiExpress
+            <img
+              src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'
+              alt='React.js'
+              width={30}
+              height={30}
               className='skills-card-img'
-              color='rgb(255,68,159)'
-            />{" "}
-            ExpressJs
+            />
+            React.js
           </div>
         </li>
         <li className='skills-card'>
           <div className='skills-card-name'>
-            {" "}
-            <FaNodeJs
-              className='skills-card-img'
-              color='rgb(255,68,159)'
-            />{" "}
+            <SiRedux size={30} class='skills-card-img' color='#764abc' /> Redux
+          </div>
+        </li>
+        <li className='skills-card'>
+          <div className='skills-card-name'>
+            <SiChakraui size={30} class='skills-card-img' color='white' />{" "}
+            Chakra UI
+          </div>
+        </li>
+        <li className='skills-card'>
+          <div className='skills-card-name'>
+            <SiNodedotjs size={30} class='skills-card-img' color='green' />{" "}
             Node.js
           </div>
         </li>
         <li className='skills-card'>
           <div className='skills-card-name'>
-            {" "}
-            <DiMongodb
+            <SiExpress size={30} class='skills-card-img' color='white' />{" "}
+            Express.js
+          </div>
+        </li>
+        <li className='skills-card'>
+          <div className='skills-card-name'>
+            <SiMongodb size={30} class='skills-card-img' color='green' />{" "}
+            MongoDB
+          </div>
+        </li>
+        <li className='skills-card'>
+          <div className='skills-card-name'>
+            <TbBrandOauth size={30} class='skills-card-img' color='gray' />{" "}
+            OAuth
+          </div>
+        </li>
+        <li className='skills-card'>
+          <div className='skills-card-name'>
+            <img
+              src='https://avatars.githubusercontent.com/u/7552965?s=280&v=4'
+              alt='mongoose'
+              width={30}
+              height={30}
               className='skills-card-img'
-              color='rgb(255,68,159)'
-            />{" "}
-            MongoDb
+            />
+            Mongoose.js
           </div>
         </li>
         <li className='skills-card'>
           <div className='skills-card-name'>
-            <DiHtml5 className='skills-card-img' color='rgb(255,68,159)' /> HTML
-          </div>
-        </li>
-        <li className='skills-card'>
-          <div className='skills-card-name'>
-            <SiCss3 className='skills-card-img' color='rgb(255,68,159)' /> CSS
-          </div>
-        </li>
-        <li className='skills-card'>
-          <div className='skills-card-name'>
-            <SiTailwindcss
+            <img
+              src='https://cdn-icons-png.flaticon.com/512/2164/2164832.png'
+              alt='Rest API'
+              width={30}
+              height={30}
               className='skills-card-img'
-              color='rgb(255,68,159)'
-            />{" "}
-            Tailwind
-          </div>
-        </li>
-
-        <li className='skills-card'>
-          <div className='skills-card-name'>
-            <SiFirebase className='skills-card-img' color='rgb(255,68,159)' />{" "}
-            Firebase
-          </div>
-        </li>
-
-        <li className='skills-card'>
-          <div className='skills-card-name'>
-            <SiChakraui className='skills-card-img' color='rgb(255,68,159)' />{" "}
-            Chakra-UI
-          </div>
-        </li>
-
-        <li className='skills-card'>
-          <div className='skills-card-name'>
-            <FaJava
-              className='skills-card-img'
-              fontSize={"27px"}
-              color='rgb(255,68,159)'
-            />{" "}
-            Java
+            />
+            Restful API
           </div>
         </li>
       </ul>
+
       <p data-aos='fade-up' style={{ marginTop: "3rem" }}>
         Here are a few Tools I’ve been working with recently:
       </p>
-      <ul data-aos='fade-up' className='skills-list'>
+      <div style={{ paddingBottom: 20 }}></div>
+      <ul
+        // data-aos='fade-up'
+        className='skills-list'
+        style={{ color: "orange" }}
+      >
         <li className='skills-card'>
           <div className='skills-card-name'>
-            {" "}
-            <FaGitSquare
+            <img
+              src='https://code.visualstudio.com/assets/images/code-stable.png'
+              alt='postman'
+              width={30}
+              height={30}
               className='skills-card-img'
-              color='rgb(255,68,159)'
-            />{" "}
-            Git
+            />
+            VS Code
           </div>
         </li>
         <li className='skills-card'>
           <div className='skills-card-name'>
-            <TbBrandVscode
+            <img
+              src='https://www.svgrepo.com/show/354202/postman-icon.svg'
+              alt='postman'
+              width={30}
+              height={30}
               className='skills-card-img'
-              fontSize={"25px"}
-              color='rgb(255,68,159)'
-            />{" "}
-            VScode
-          </div>
-        </li>
-        <li className='skills-card'>
-          <div className='skills-card-name'>
-            <SiPostman className='skills-card-img' color='rgb(255,68,159)' />{" "}
+            />
             Postman
           </div>
         </li>
         <li className='skills-card'>
           <div className='skills-card-name'>
-            <SiVite
+            <img
+              src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1200px-Vitejs-logo.svg.png'
+              alt='vite'
+              width={30}
+              height={30}
               className='skills-card-img'
-              fontSize={"25px"}
-              color='rgb(255,68,159)'
-            />{" "}
+            />
             Vite
+          </div>
+        </li>
+        <li className='skills-card'>
+          <div className='skills-card-name'>
+            <BiLogoNetlify
+              size={30}
+              className='skills-card-img'
+              color='#25c7b7'
+            />
+            Netlify
+          </div>
+        </li>
+        <li className='skills-card'>
+          <div className='skills-card-name'>
+            <SiGithub size={30} className='skills-card-img' color='white' />
+            GitHub
+          </div>
+        </li>
+        <li className='skills-card'>
+          <div className='skills-card-name'>
+            <img
+              src='https://cdn-icons-png.flaticon.com/512/5278/5278402.png'
+              alt='AI'
+              width={30}
+              height={30}
+              className='skills-card-img'
+            />
+            AI Tools
           </div>
         </li>
       </ul>

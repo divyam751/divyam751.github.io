@@ -3,7 +3,7 @@ import "./styles/ResumeButton.css"; // Make sure to import the corresponding CSS
 
 const ResumeButton = () => {
   return (
-    <button id='res-btn'>
+    <button id='res-btn' style={{ marginTop: -10 }}>
       <div className='svg-wrapper-1'>
         <div className='svg-wrapper'>
           <svg

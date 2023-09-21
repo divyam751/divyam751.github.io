@@ -1,7 +1,6 @@
 export default function getProjects() {
   return [
     {
-      img: "",
       id: 1,
       image: "Melodix.png",
       projectTitle: "Melodix",
@@ -13,7 +12,6 @@ export default function getProjects() {
         "https://github.com/divyam751/SoloProjects/tree/main/Melodix",
     },
     {
-      img: "",
       id: 2,
       image: "OverStock.png",
       projectTitle: "OverStock",

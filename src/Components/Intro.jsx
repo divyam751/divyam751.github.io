@@ -1,28 +1,19 @@
 import React from "react";
 import img1 from "../images/pictures/personal.jpg";
 import Typewriter from "typewriter-effect";
-import resume from "../resume/Divyam-Chauhan-Resume.pdf";
-import bg1 from "../images/pictures/wave-haikei.svg";
 
 export default function Intro({ handleClick, boolean }) {
   // ===========
   const handleDownload = () => {
     window.open(
       "https://drive.google.com/file/d/1AqZMjnPacKIcH8d_YNiV7STc2LpO08Uw/view?usp=sharing",
-      "_blank"
+      "_blank",
     );
   };
   // ==============
   return (
     <div
       id='home'
-      style={{
-        paddingTop: "10px",
-        backgroundImage: `url(${bg1})`,
-        backgroundPosition: "bottom", // Position the background at the bottom
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
       className='hero'
       onClick={() => {
         if (boolean === false) handleClick();
@@ -37,7 +28,7 @@ export default function Intro({ handleClick, boolean }) {
           <span class='sq sq-2'></span>
         </div>
       </div>
-      <div className='intro give-padding contain'>
+      <div className='intro'>
         <div className='txt-light-red twent'>
           Hello...<span className='wave'> 👋🏻</span>, My name is
         </div>
