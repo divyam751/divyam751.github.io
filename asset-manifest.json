@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.c74024b4.css",
-    "main.js": "/static/js/main.d5da6b02.js",
+    "main.css": "/static/css/main.c6913b7a.css",
+    "main.js": "/static/js/main.629201f8.js",
+    "static/media/Moviewood.png": "/static/media/Moviewood.a88a7efbbf91a4d98975.png",
     "static/media/OverStock.png": "/static/media/OverStock.f9053464d524e12eb19f.png",
+    "static/media/KFC.png": "/static/media/KFC.b934b2eb343ee97ea6aa.png",
+    "static/media/Voyawander.png": "/static/media/Voyawander.32bd32a3c69be34c5c3b.png",
     "static/media/Melodix.png": "/static/media/Melodix.d51233e25169a850d64e.png",
-    "static/media/KFC.png": "/static/media/KFC.27b9bd98bc8ad974a8d4.png",
-    "static/media/Portfolio.jpg": "/static/media/Portfolio.e6d85405a5bccc2eedde.jpg",
-    "static/media/Divyam-Chauhan-Resume.pdf": "/static/media/Divyam-Chauhan-Resume.d9a447fabf5bd7dc1e2a.pdf",
+    "static/media/Portfolio.png": "/static/media/Portfolio.0fe048e64d481566fd15.png",
+    "static/media/Divyam-Chauhan-Resume.pdf": "/static/media/Divyam-Chauhan-Resume.8841d2f6f17a23e24fd6.pdf",
+    "static/media/laptop.png": "/static/media/laptop.9a57d78c3d3284e9a6ea.png",
+    "static/media/chakra.png": "/static/media/chakra.9831881086c3c6f5814c.png",
     "static/media/personal.jpg": "/static/media/personal.5929698c9d4be50dfedd.jpg",
-    "static/media/wave-haikei.svg": "/static/media/wave-haikei.e4694d785b8b1e41e4cf9c41837dbb6a.svg",
+    "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
     "index.html": "/index.html",
-    "main.c74024b4.css.map": "/static/css/main.c74024b4.css.map",
-    "main.d5da6b02.js.map": "/static/js/main.d5da6b02.js.map"
+    "main.c6913b7a.css.map": "/static/css/main.c6913b7a.css.map",
+    "main.629201f8.js.map": "/static/js/main.629201f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c74024b4.css",
-    "static/js/main.d5da6b02.js"
+    "static/css/main.c6913b7a.css",
+    "static/js/main.629201f8.js"
   ]
 }
