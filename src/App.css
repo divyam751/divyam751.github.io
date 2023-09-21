@@ -534,7 +534,7 @@ ham i {
 /* Glassmorphic Link */
 .glassmorphic-link {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 12px 20px;
   background-color: rgba(255, 255, 255, 0.1);
   /* Transparent white background */
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -549,6 +549,8 @@ ham i {
   /* Apply a blur effect to the background */
   transition: background-color 0.3s ease;
   /* Transition only background-color */
+  letter-spacing: 1px;
+
 }
 
 .glassmorphic-link:hover {

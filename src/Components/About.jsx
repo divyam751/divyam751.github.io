@@ -4,6 +4,11 @@ import AOS from "aos";
 
 export default function About() {
   const handleDownload = () => {
+    const resLink = document.createElement("a");
+    resLink.href = resume;
+    resLink.download = "Divyam-Chauhan-Resume";
+    resLink.click();
+
     window.open(
       "https://drive.google.com/file/d/1QLvELukHGjnVJKjvfmMmA5DoDHMVSEYY/view?usp=sharing",
       "_blank",
@@ -48,16 +53,13 @@ export default function About() {
           </p>
           <br />
         </div>
-        <a
-          onClick={handleDownload}
-          rel='noreferrer'
-          href={resume}
-          download={"Divyam-Chauhan-Resume"}
+        <button
           id='resume-button-2'
           className='glassmorphic-link'
+          onClick={() => handleDownload()}
         >
           Resume
-        </a>
+        </button>
       </div>
     </section>
   );
