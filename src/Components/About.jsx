@@ -53,7 +53,7 @@ export default function About() {
           rel='noreferrer'
           href={resume}
           download={"Divyam-Chauhan-Resume"}
-          id='resume-link-2'
+          id='resume-button-2'
           className='glassmorphic-link'
         >
           Resume

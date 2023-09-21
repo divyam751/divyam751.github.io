@@ -51,13 +51,13 @@ export default function Navbar({ handleClick, boolean }) {
             Contact
           </a>
         </li>
-        <li className='nav-resume'>
+        <li className='nav-link resume'>
           <a
             href={resume}
             onClick={handleDownload}
             rel='noreferrer'
             download={"Divyam-Chauhan-Resume"}
-            id='resume-link-1'
+            id='resume-button-1'
           >
             <ResumeButton />
           </a>
