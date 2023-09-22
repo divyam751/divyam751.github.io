@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import resume from "../resume/Divyam-Chauhan-Resume.pdf";
-import AOS from "aos";
 
 export default function About() {
   const handleDownload = () => {
@@ -15,24 +14,15 @@ export default function About() {
     );
   };
 
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
-
   return (
-    <section
-      data-aos='fade-up'
-      className='about section about-section'
-      id='about'
-    >
-      <h1 data-aos='fade-up' className='heading'>
+    <section className='about section about-section' id='about'>
+      <h1 className='heading'>
         <span className='sauce'>
           <b> About Me </b>
         </span>
       </h1>
       <div>
-        <div data-aos='fade-up' className=' first'>
+        <div className=' first'>
           <p id='user-detail-intro'>
             Welcome to my coding realm, where I transform coffee into lines of
             code!{" "}
