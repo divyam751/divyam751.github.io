@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.90284392.css",
-    "main.js": "/static/js/main.18768fe6.js",
+    "main.js": "/static/js/main.6c609f49.js",
     "static/media/Moviewood.png": "/static/media/Moviewood.a88a7efbbf91a4d98975.png",
     "static/media/OverStock.png": "/static/media/OverStock.f9053464d524e12eb19f.png",
     "static/media/KFC.png": "/static/media/KFC.b934b2eb343ee97ea6aa.png",
@@ -15,10 +15,10 @@
     "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
     "index.html": "/index.html",
     "main.90284392.css.map": "/static/css/main.90284392.css.map",
-    "main.18768fe6.js.map": "/static/js/main.18768fe6.js.map"
+    "main.6c609f49.js.map": "/static/js/main.6c609f49.js.map"
   },
   "entrypoints": [
     "static/css/main.90284392.css",
-    "static/js/main.18768fe6.js"
+    "static/js/main.6c609f49.js"
   ]
 }
