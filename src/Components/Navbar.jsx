@@ -59,7 +59,10 @@ export default function Navbar({ handleClick, boolean }) {
             download={"Divyam-Chauhan-Resume"}
             id='resume-button-1'
           >
-            <ResumeButton />
+            <center>
+              {" "}
+              <ResumeButton />
+            </center>
           </a>
         </li>
       </ul>
