@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import Logo from "./elements/Logo";
 import ResumeButton from "./elements/ResumeButton";
+import { Link } from "react-scroll";
 export default function Navbar({ handleClick, boolean }) {
   const handleDownload = () => {
     window.open(
@@ -25,31 +26,46 @@ export default function Navbar({ handleClick, boolean }) {
           </span>
         </div>
       </div>
-      <ul className={boolean ? "hide" : ""}>
+      <ul
+        className={boolean ? "hide" : ""}
+        style={{ background: " #002233", marginTop: -10 }}
+      >
         <li>
-          <a href='#home' className='underline'>
+          <Link to='home' spy={true} smooth={true} offset={50} duration={500}>
             Home
-          </a>
+          </Link>
         </li>
         <li className='nav-link about'>
-          <a href='#about' className='underline'>
+          <Link to='about' spy={true} smooth={true} offset={50} duration={500}>
             About
-          </a>
+          </Link>
         </li>
         <li className='nav-link skills'>
-          <a href='#skills' className='underline'>
+          <Link to='skills' spy={true} smooth={true} offset={50} duration={500}>
             Skills
-          </a>
+          </Link>
         </li>
         <li className='nav-link projects'>
-          <a href='#projects' className='underline'>
+          <Link
+            to='projects'
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             Projects
-          </a>
+          </Link>
         </li>
         <li className='nav-link contact'>
-          <a href='#contact' className='underline'>
+          <Link
+            to='contact'
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
             Contact
-          </a>
+          </Link>
         </li>
         <li className='nav-link resume'>
           <a

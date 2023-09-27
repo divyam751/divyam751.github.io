@@ -21,6 +21,11 @@ export default function About() {
           <b> About Me </b>
         </span>
       </h1>
+      <img
+        src='https://cdn3d.iconscout.com/3d/premium/thumb/web-developer-working-on-laptop-6343300-5242454.png?f=webp'
+        alt=''
+        className='about-Img'
+      />
       <div>
         <div className=' first'>
           <p id='user-detail-intro'>

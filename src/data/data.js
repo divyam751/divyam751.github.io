@@ -23,7 +23,7 @@ export default function getProjects() {
     {
       id: 2,
       image: "KFC.png",
-      projectTitle: "🐔 KFC",
+      projectTitle: "🐔 KFC-Clone",
       projectInfo:
         "Explore our virtual chicken paradise where you can browse our mouthwatering menu, This is a solo project that replicates the functionality and design of the famous fast-food restaurant, KFC.",
       techUsed: [
