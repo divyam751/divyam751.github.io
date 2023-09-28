@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
+import Typewriter from "typewriter-effect";
+import TypewriterComponent from "./elements/TypewriterComponent";
 
 export default function Contact() {
   useEffect(() => {
@@ -19,18 +21,33 @@ export default function Contact() {
       <div data-aos='fade-up' className='flex-center'>
         <h1 className='title'>Get In Touch</h1>
         <p style={{ textAlign: "center", "": 700 }}>
-          Please email me at your convenience.
+          Please contact or email me at your convenience.
         </p>
-        <div className='button-container'>
-          <a className='contact-button' href='mailto:mi.divyam@gmail.com'>
+        <TypewriterComponent />
+        {/* <a className='contact-button' href='mailto:mi.divyam@gmail.com'>
             Send an email
-          </a>
+          </a> */}
+
+        {/* changes start */}
+        <div class='card' id='contact-phone'>
+          <div class='card-inner'>
+            <div class='card-front'>
+              <p>Make contact</p>
+            </div>
+            <div class='card-back'>
+              <a className='contact-button2' href='tel:+919719635838'>
+                <p>+91 9719635838</p>
+              </a>
+            </div>
+          </div>
         </div>
-        <div id='contact-phone' className='button-container'>
+        {/* changes end*/}
+
+        {/* <div id='contact-phone' className='button-container'>
           <a className='contact-button' href='tel:+919719635838'>
             Make contact
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

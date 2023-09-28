@@ -446,19 +446,6 @@ ham i {
   padding-top: 40px;
 }
 
-.contact-button {
-  color: var(--light-red);
-  font-size: var(--font-med);
-  padding: 9px;
-  border: 1.7px solid var(--light-red);
-  border-radius: 7px;
-  margin: 20px 0 0 5px;
-}
-
-.contact-button:hover {
-  background: rgb(255, 107, 107, 0.1);
-}
-
 @media screen and (min-width: 700px) {
   .info {
     font-size: 20px;
@@ -757,6 +744,170 @@ ham i {
     padding-top: 100px;
     height: fit-content;
   }
+}
+
+/* Changed */
+
+.card {
+  margin-top: 30px;
+  width: 230px;
+  height: 48px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-color: #002233;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  justify-content: center;
+  /* font-size: 24px; */
+  font-size: var(--font-med);
+  transform: rotateY(0deg);
+
+}
+
+.card-back {
+  background-color: #002233;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  justify-content: center;
+  /* font-size: 24px; */
+  font-size: var(--font-med);
+  transform: rotateY(180deg);
+}
 
 
+/* New email button */
+.button-container {
+  position: relative;
+}
+
+.contact-button {
+  color: var(--light-red);
+  font-size: var(--font-med);
+  padding: 9px;
+  border: 1.7px solid var(--light-red);
+  border-radius: 7px;
+  margin: 20px 0 0 5px;
+  position: relative;
+  /* Ensure the button has a relative position */
+  z-index: 1;
+  /* Ensure the button is above the moving image */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-button2:hover {
+  font-weight: normal;
+}
+
+
+/* Email-Book */
+.book {
+  position: relative;
+  border-radius: 10px;
+  width: 300px;
+  height: 48px;
+  background-color: whitesmoke;
+  background-color: orange;
+  color: black;
+  border: 2px solid white;
+  /* -webkit-box-shadow: 1px 1px 12px #000;
+  box-shadow: 1px 1px 12px #000; */
+  -webkit-transform: preserve-3d;
+  -ms-transform: preserve-3d;
+  transform: preserve-3d;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #000;
+  justify-content: flex-end;
+  /* background-color: #002233; */
+  /* color: #fff; */
+
+}
+
+.cover {
+  top: 0;
+  position: absolute;
+  background-color: lightgray;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform-origin: 0;
+  -ms-transform-origin: 0;
+  transform-origin: 0;
+  /* -webkit-box-shadow: 1px 1px 12px #000; */
+  /* box-shadow: 1px 1px 12px #000; */
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #002233;
+  color: #fff;
+
+}
+
+.book:hover .cover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-transform: rotatey(-80deg);
+  -ms-transform: rotatey(-80deg);
+  transform: rotatey(-80deg);
+
+
+}
+
+.cover-text {
+  /* font-weight: bolder; */
+  font-size: var(--font-med);
+}
+
+.book-text {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-right: 10px;
 }
