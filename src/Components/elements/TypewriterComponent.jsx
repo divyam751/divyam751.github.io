@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
-
+import { HiOutlineMail } from "react-icons/hi";
 function TypewriterComponent() {
   const [typewriterState, setTypewriterState] = useState(false);
 
@@ -29,7 +29,8 @@ function TypewriterComponent() {
           )}
         </p>
         <div className='cover'>
-          <p className='cover-text'>Send an email</p>
+          <p className='cover-text'> mi.divyam@gmail.com</p>
+          {/* <p className='cover-text'>Send an email</p> */}
         </div>
       </div>
     </div>

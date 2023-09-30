@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import Typewriter from "typewriter-effect";
 import TypewriterComponent from "./elements/TypewriterComponent";
-
+import { BiSolidPhoneCall } from "react-icons/bi";
 export default function Contact() {
   useEffect(() => {
     AOS.init();
@@ -32,7 +32,9 @@ export default function Contact() {
         <div class='card' id='contact-phone'>
           <div class='card-inner'>
             <div class='card-front'>
-              <p>Make contact</p>
+              {/* <p>Make contact</p> */}
+              <BiSolidPhoneCall />
+              <p style={{ paddingLeft: 15 }}> 9719635838</p>
             </div>
             <div class='card-back'>
               <a className='contact-button2' href='tel:+919719635838'>
