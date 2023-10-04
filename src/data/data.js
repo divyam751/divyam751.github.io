@@ -80,8 +80,8 @@ export default function getProjects() {
         "https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png",
         "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
       ],
-      projectLinkHosted: "https://github.com/divyam751/divyam751.github.io",
-      projectLinkGithub: "https://divyam751.github.io/",
+      projectLinkGithub: "https://github.com/divyam751/divyam751.github.io",
+      projectLinkHosted: "https://divyam751.github.io/",
     },
   ];
 }
