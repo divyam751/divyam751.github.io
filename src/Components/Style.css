@@ -93,7 +93,8 @@
     margin-top: 10px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
+    padding-left: 10px;
 }
 
 .pro-project-links {
@@ -176,5 +177,12 @@
     .pro-continer {
         gap: 100px;
     }
-
+    .pro-project-desc-text {
+        min-height: 140px;
+        font-size: 20px;
+        padding: 0px 5px 0px 15px;
+    }
+    .pro-parentBox{
+        width: 110%;
+    }
 }

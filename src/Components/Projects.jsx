@@ -69,7 +69,7 @@ const Projects = () => {
                     {project.projectInfo}
                   </p>
                   <div className='pro-project-techStack project-tech-stack'>
-                    <h4>Tech Stack: </h4>
+                    <h5>Tech Stack: </h5>
                     {project.techUsed.map((tech, index) => {
                       return (
                         <div className='techLogo-box'>
