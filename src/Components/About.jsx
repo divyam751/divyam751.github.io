@@ -9,29 +9,29 @@ export default function About() {
     resLink.click();
 
     window.open(
-      "https://drive.google.com/file/d/1Gep7o-5c947ODZ79h5orE1cDli4MlsGf/view?usp=sharing",
-      "_blank",
+      "https://drive.google.com/file/d/1BMz-qSD5BhCU2CN-SZVkKpnGLiBkLefX/view?usp=sharing",
+      "_blank"
     );
   };
 
   return (
-    <section className='about section about-section' id='about'>
-      <h1 className='heading'>
-        <span className='sauce'>
+    <section className="about section about-section" id="about">
+      <h1 className="heading">
+        <span className="sauce">
           <b> About Me </b>
         </span>
       </h1>
       <img
-        src='https://cdn3d.iconscout.com/3d/premium/thumb/web-developer-working-on-laptop-6343300-5242454.png?f=webp'
-        alt=''
-        className='about-Img'
+        src="https://cdn3d.iconscout.com/3d/premium/thumb/web-developer-working-on-laptop-6343300-5242454.png?f=webp"
+        alt=""
+        className="about-Img"
       />
       <div>
-        <div className=' first'>
-          <p id='user-detail-intro'>
+        <div className=" first">
+          <p id="user-detail-intro">
             Welcome to my coding realm, where I transform coffee into lines of
             code!{" "}
-            <p style={{ display: "inline-block" }} className='sauce'>
+            <p style={{ display: "inline-block" }} className="sauce">
               I'm Divyam, &nbsp;
             </p>
             a Full Stack Developer with expertise in both front-end and back-end
@@ -49,8 +49,8 @@ export default function About() {
           <br />
         </div>
         <button
-          id='resume-button-2'
-          className='glassmorphic-link'
+          id="resume-button-2"
+          className="glassmorphic-link"
           onClick={() => handleDownload()}
         >
           Resume

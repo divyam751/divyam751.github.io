@@ -5,6 +5,37 @@ export default function getProjects() {
   return [
     {
       id: 1,
+      image: "CarRental.png",
+      projectTitle: "🚗 CarRental",
+      projectInfo:
+        "Car Rental Website, a responsive platform designed to provide a seamless car rental experience.",
+      techUsed: [
+        "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+        "https://miro.medium.com/v2/resize:fit:3614/1*5z5g2wKCOUqWHPBbFjNbfA.png",
+        "https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png",
+        "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+      ],
+      projectLinkHosted: "https://dc-car-rental.vercel.app/",
+      projectLinkGithub: "https://github.com/divyam751/CAR-Rental",
+    },
+    {
+      id: 2,
+      image: "FetchMaster.png",
+      projectTitle: "👨‍🎓 FetchMaster",
+      projectInfo:
+        "Fetch-Master project is designed to simplify API requests by allowing users to create and manage different tabs for various requests, it support GET, POST, PUT, DELETE, and PATCH requests",
+      techUsed: [
+        "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+        "https://miro.medium.com/v2/resize:fit:3614/1*5z5g2wKCOUqWHPBbFjNbfA.png",
+        "https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png",
+        "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+      ],
+      projectLinkHosted: "https://fetch-master.vercel.app/",
+      projectLinkGithub: "https://github.com/divyam751/FetchMaster",
+    },
+
+    {
+      id: 3,
       image: "Voyawander.png",
       projectTitle: "✈️ Voyawander",
       projectInfo:
@@ -21,7 +52,7 @@ export default function getProjects() {
       projectLinkGithub: "https://github.com/divyam751/Voyawander",
     },
     {
-      id: 2,
+      id: 4,
       image: "KFC.png",
       projectTitle: "🐔 KFC-Clone",
       projectInfo:
@@ -36,12 +67,11 @@ export default function getProjects() {
       projectLinkGithub: "https://github.com/divyam751/KFC",
     },
     {
-      id: 3,
+      id: 5,
       image: "Moviewood.png",
       projectTitle: "🍿 MovieWood",
       projectInfo:
         "Moviewood, your go-to destination for all things movies and TV shows!,This project built using IMDB API ,offering users a comprehensive platform for discovering and exploring their favorite films and television series.",
-      // techUsed: "React.js, Redux, SCSS, IMDB API",
       techUsed: [
         "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
         `${reduxlogo}`,
@@ -52,12 +82,11 @@ export default function getProjects() {
       projectLinkGithub: "https://github.com/divyam751/MovieWood",
     },
     {
-      id: 4,
+      id: 6,
       image: "OverStock.png",
       projectTitle: "🪑 OverStock",
       projectInfo:
         "A leading online retailer offering a wide range of products, from furniture and home decor to electronics and fashion. Providing seamless shopping experience with competitive prices and excellent customer service.",
-      // techUsed: "HTML, CSS,JavaScript",
       techUsed: [
         "https://cdn-icons-png.flaticon.com/512/732/732212.png",
         "https://miro.medium.com/v2/resize:fit:3614/1*5z5g2wKCOUqWHPBbFjNbfA.png",
@@ -68,12 +97,11 @@ export default function getProjects() {
         "https://github.com/divyam751/Project-overstock/tree/main/orignalsite",
     },
     {
-      id: 4,
+      id: 7,
       image: "Portfolio.png",
       projectTitle: "🖥️ Portfolio",
       projectInfo:
         "My portfolio project showcases a culmination of my passion for design and development, weaving together elegant aesthetics with seamless functionality to create visually stunning and user-friendly experiences.",
-      // techUsed: "HTML, CSS,JavaScript, React.js",
       techUsed: [
         "https://cdn-icons-png.flaticon.com/512/732/732212.png",
         "https://miro.medium.com/v2/resize:fit:3614/1*5z5g2wKCOUqWHPBbFjNbfA.png",
