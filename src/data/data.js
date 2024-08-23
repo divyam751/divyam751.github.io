@@ -1,6 +1,7 @@
 import chkralogo from "../images/logo/chakra.png";
 import reduxlogo from "../images/logo/redux.png";
 import scsslogo from "../images/logo/scss.png";
+import nodejs from "../images/logo/nodejs.png";
 export default function getProjects() {
   return [
     {
@@ -45,7 +46,7 @@ export default function getProjects() {
         "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
         "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
         "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-        "https://static-00.iconduck.com/assets.00/node-js-icon-227x256-913nazt0.png",
+        `${nodejs}`,
         `${chkralogo}`,
       ],
       projectLinkHosted: "https://dc-voyawander.vercel.app/",
