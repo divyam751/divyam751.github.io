@@ -9,7 +9,7 @@ export default function About() {
     resLink.click();
 
     window.open(
-      "https://drive.google.com/file/d/1anu-pt27LFkKuNosRYEsTIUxuzktD9Qs/view?usp=sharing",
+      "https://drive.google.com/file/d/1R_EWu5rvEX5KainJf99X6u9mc6qNSr_V/view?usp=sharing",
       "_blank"
     );
   };
