@@ -50,7 +50,7 @@ export default function getProjects() {
         `${chkralogo}`,
       ],
       projectLinkHosted: "https://dc-voyawander.vercel.app/",
-      projectLinkGithub: "https://github.com/divyam751/Voyawander",
+      projectLinkGithub: "https://github.com/divyam751/Travel-Booking-Website",
     },
     {
       id: 4,
